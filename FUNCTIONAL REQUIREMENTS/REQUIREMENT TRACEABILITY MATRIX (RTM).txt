@@ -1,0 +1,48 @@
+REQUIREMENT TRACEABILITY MATRIX (RTM) – INDIA MART WEB APPLICATION
+This Requirement Traceability Matrix (RTM) maps the Functional Requirements with corresponding Test Scenarios, Test Cases, and Defects identified during testing of the IndiaMART Web Application.
+1. Project Information
+Project Name	IndiaMART Web Application
+Document Type	Requirement Traceability Matrix (RTM)
+Testing Type	Manual Black Box Testing
+Prepared By	Smritilata Sarkar
+Version	1.0
+Date	27/05/2026
+2. Requirement Traceability Matrix
+Requirement ID	Requirement Description	Test Scenario ID	Test Case ID	Defect ID	Status
+FR_REG_001	Access registration page	TS_002	TC_IM_002	-	Pass
+FR_REG_003	Validate mandatory fields	TS_014	TC_IM_014	DEF_007	Partial Fail
+FR_REG_005	Validate mobile number length	TS_003	TC_IM_003	-	Pass
+FR_LOG_002	Login with valid credentials	TS_004	TC_IM_004	-	Pass
+FR_LOG_003	Reject invalid credentials	TS_005	TC_IM_005	-	Pass
+FR_SRC_002	Keyword-based search	TS_006	TC_IM_006	-	Pass
+FR_SRC_003	Display relevant search results	TS_018	TC_IM_018	DEF_003	Partial Fail
+FR_FIL_002	Location filtering	TS_018	TC_IM_018	DEF_003	Fail
+FR_PROD_003	Display supplier details	TS_009	TC_IM_009	-	Pass
+FR_CON_002	Open inquiry form	TS_008	TC_IM_008	-	Pass
+FR_CON_004	Send inquiry to supplier	TS_013	TC_IM_013	-	Pass
+FR_CART_001	Add to cart functionality	TS_010	TC_IM_010	-	Pass
+FR_CART_005	Maintain cart session	TS_010	TC_IM_010	-	Pass
+FR_SELL_004	Display business location	TS_016	TC_IM_016	DEF_001	Fail
+FR_FP_003	Send OTP/reset link	TS_012	TC_IM_012	-	Pass
+FR_LO_001	Provide logout option	TS_011	TC_IM_011	DEF_005	Partial Fail
+3. Defect Traceability Summary
+Defect ID	Defect Description	Mapped Requirement	Severity	Status
+DEF_001	Location mismatch issue	FR_SELL_004	Medium	Open
+DEF_002	Hindi language displaying English content	FR_SRC_003	High	Open
+DEF_003	Incorrect location-based product display	FR_FIL_002	High	Open
+DEF_004	English language displaying Hindi content	FR_SRC_003	High	Open
+DEF_005	Missing homepage navigation option	FR_LO_001	Medium	Open
+DEF_006	Missing Bank Name placeholder	FR_REG_003	Low	Open
+DEF_007	Mandatory fields missing astrix (*) symbol	FR_REG_003	Medium	Open
+DEF_008	Improper placeholder text	FR_REG_003	Low	Open
+DEF_009	Missing dropdown button	FR_FIL_002	Medium	Open
+DEF_010	Hyperlinks not highlighted properly	FR_SRC_002	Low	Open
+4. RTM Summary
+•	Total Requirements Covered: 58
+•	Total Test Cases Mapped: 25
+•	Total Defects Linked: 10
+•	Passed Requirements: 49
+•	Partially Failed Requirements: 5
+•	Failed Requirements: 4
+5. Conclusion
+The RTM document provides complete traceability between requirements, test scenarios, test cases, and defects identified during testing. It ensures that all critical functionalities of the IndiaMART Web Application are validated and tracked effectively throughout the testing lifecycle.
