@@ -1,0 +1,455 @@
+# INDIA MART DEFECT REPORT
+
+## Project Name
+
+IndiaMART Mobile Application
+
+## Tested By
+
+Smritilata Sarkar
+
+## Testing Type
+
+Black Box Testing
+
+## Environment
+
+* Platform: Android Mobile Application
+* Application: IndiaMART
+* Test Type: Manual Testing
+
+---
+
+# DEFECT 001
+
+### Defect ID
+
+IM_DEF_001
+
+### Defect Title
+
+Inconsistent Location Display on Homepage
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Medium
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Open IndiaMART mobile application.
+2. Observe the location displayed on the homepage.
+3. Click on the location section.
+
+### Expected Result
+
+The selected location should remain consistent throughout the application.
+
+### Actual Result
+
+Homepage displays "Balurghat" while the selected location page displays "Kolkata".
+
+### Status
+
+Open
+
+---
+
+# DEFECT 002
+
+### Defect ID
+
+IM_DEF_002
+
+### Defect Title
+
+Hindi Language Selected but Content Displayed in English
+
+### Defect Type
+
+Globalization Defect
+
+### Severity
+
+Medium
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Open application settings.
+2. Select Hindi language.
+3. Navigate to the homepage.
+
+### Expected Result
+
+All content should be displayed in Hindi.
+
+### Actual Result
+
+Language is set to Hindi but content is displayed in English.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 003
+
+### Defect ID
+
+IM_DEF_003
+
+### Defect Title
+
+Incorrect Product Location Display
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Medium
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Select Bangalore as the preferred location.
+2. Search for products.
+3. Observe product listings.
+
+### Expected Result
+
+Products related to Bangalore should be displayed.
+
+### Actual Result
+
+Product listings from Kolkata are displayed.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 004
+
+### Defect ID
+
+IM_DEF_004
+
+### Defect Title
+
+English Language Selected but Content Displayed in Hindi
+
+### Defect Type
+
+Globalization Defect
+
+### Severity
+
+Medium
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Select English as the application language.
+2. Navigate through the application.
+
+### Expected Result
+
+All content should be displayed in English.
+
+### Actual Result
+
+Several sections are displayed in Hindi.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 005
+
+### Defect ID
+
+IM_DEF_005
+
+### Defect Title
+
+No Home Navigation Option Available
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Navigate to inner pages of the application.
+2. Try to return to the homepage.
+
+### Expected Result
+
+A dedicated Home button should be available.
+
+### Actual Result
+
+Users must rely on device back navigation.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 006
+
+### Defect ID
+
+IM_DEF_006
+
+### Defect Title
+
+Bank Name Field Missing Placeholder
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Low
+
+### Steps to Reproduce
+
+1. Open bank details form.
+2. Observe the Bank Name field.
+
+### Expected Result
+
+Field should display a placeholder indicating required input.
+
+### Actual Result
+
+Placeholder text is missing.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 007
+
+### Defect ID
+
+IM_DEF_007
+
+### Defect Title
+
+Mandatory Fields Missing Asterisk Symbol
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Medium
+
+### Steps to Reproduce
+
+1. Open form containing mandatory fields.
+2. Observe field labels.
+
+### Expected Result
+
+Mandatory fields should contain (*) symbol.
+
+### Actual Result
+
+Mandatory fields do not display an asterisk indicator.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 008
+
+### Defect ID
+
+IM_DEF_008
+
+### Defect Title
+
+Improper Placeholder Text in Input Fields
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Low
+
+### Steps to Reproduce
+
+1. Open the affected form.
+2. Observe placeholder text.
+
+### Expected Result
+
+Placeholder should clearly describe expected input.
+
+### Actual Result
+
+Placeholder is missing or unclear.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 009
+
+### Defect ID
+
+IM_DEF_009
+
+### Defect Title
+
+Dropdown Indicator Not Visible
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Low
+
+### Steps to Reproduce
+
+1. Open form containing dropdown fields.
+2. Observe dropdown control.
+
+### Expected Result
+
+Dropdown arrow/icon should be visible.
+
+### Actual Result
+
+Dropdown indicator is missing.
+
+### Status
+
+Open
+
+---
+
+# DEFECT 010
+
+### Defect ID
+
+IM_DEF_010
+
+### Defect Title
+
+Hyperlinks Are Not Visually Distinguishable
+
+### Defect Type
+
+Usability Defect
+
+### Severity
+
+Low
+
+### Priority
+
+Low
+
+### Steps to Reproduce
+
+1. Open pages containing hyperlinks.
+2. Observe hyperlink formatting.
+
+### Expected Result
+
+Hyperlinks should be highlighted and underlined.
+
+### Actual Result
+
+Hyperlinks appear as normal text.
+
+### Status
+
+Open
+
+---
+
+# DEFECT SUMMARY
+
+| Defect ID  | Defect Type   | Severity | Status |
+| ---------- | ------------- | -------- | ------ |
+| IM_DEF_001 | Usability     | Medium   | Open   |
+| IM_DEF_002 | Globalization | Medium   | Open   |
+| IM_DEF_003 | Usability     | Medium   | Open   |
+| IM_DEF_004 | Globalization | Medium   | Open   |
+| IM_DEF_005 | Usability     | Low      | Open   |
+| IM_DEF_006 | Usability     | Low      | Open   |
+| IM_DEF_007 | Usability     | Low      | Open   |
+| IM_DEF_008 | Usability     | Low      | Open   |
+| IM_DEF_009 | Usability     | Low      | Open   |
+| IM_DEF_010 | Usability     | Low      | Open   |
+
+## Total Defects
+
+* Globalization Defects: 2
+* Usability Defects: 8
+* Total Defects: 10
